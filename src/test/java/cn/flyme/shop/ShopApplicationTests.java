@@ -12,7 +12,6 @@ import java.util.List;
 @SpringBootTest
 public class ShopApplicationTests {
 
-
     @Test
     public void contextLoads() {
 

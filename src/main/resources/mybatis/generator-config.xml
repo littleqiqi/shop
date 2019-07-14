@@ -37,7 +37,7 @@
         </table>
         <table schema="spring" tableName="cart" domainObjectName="Cart">
     </table>
-        <table schema="spring" tableName="cata" domainObjectName="cata">
+        <table schema="spring" tableName="cata" domainObjectName="Cata">
         </table>
         <table schema="spring" tableName="customer" domainObjectName="Customer">
         </table>
