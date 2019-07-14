@@ -12,16 +12,10 @@ import java.util.List;
 @SpringBootTest
 public class ShopApplicationTests {
 
-    @Autowired
-    UserSerivce userSerivce;
 
     @Test
     public void contextLoads() {
-        List<User> list = userSerivce.list();
 
-        for(User user:list){
-            System.out.println(user);
-        }
     }
 
 }
