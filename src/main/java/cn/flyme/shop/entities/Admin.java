@@ -173,4 +173,14 @@ public class Admin {
         result = prime * result + ((getPower() == null) ? 0 : getPower().hashCode());
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "Admin{" +
+                "id=" + id +
+                ", uname='" + uname + '\'' +
+                ", passwd='" + passwd + '\'' +
+                ", power=" + power +
+                '}';
+    }
 }
